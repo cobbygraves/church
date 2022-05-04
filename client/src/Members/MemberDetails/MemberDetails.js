@@ -28,7 +28,7 @@ const MemberDetails = (props) => {
       <div className="Display-Profile">
         <img
           // src={`http://localhost:5000/images/${props.details.pic}`}
-          src={`https://loyaltyhouseinternational.herokuapp.com/images/${props.details.pic}`}
+          src={`https://loyaltyhouse.herokuapp.com/images/${props.details.pic}`}
           alt=""
         />
       </div>

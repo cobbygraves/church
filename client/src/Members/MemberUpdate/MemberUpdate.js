@@ -117,9 +117,7 @@ const MemberUpdate = (props) => {
         setNameOfShepherd(shepherd);
         setPhoneNumber(telephone);
         // setImageURL(`http://localhost:5000/images/${pic}`);
-        setImageURL(
-          `https://loyaltyhouseinternational.herokuapp.com/images/${pic}`
-        );
+        setImageURL(`https://loyaltyhouse.herokuapp.com/images/${pic}`);
       })
       .catch((error) => console.log(error));
   }, [id]);
