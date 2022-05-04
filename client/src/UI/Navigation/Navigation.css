@@ -1,0 +1,14 @@
+.Navigation {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    right: 25px;
+    margin-left: 10px;
+}
+
+@media(max-width: 500px) {
+    .Navigation {
+        display: none
+    }
+}

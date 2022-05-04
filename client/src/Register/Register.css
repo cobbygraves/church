@@ -1,0 +1,13 @@
+.Register {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Register-Form {
+  box-shadow: 5px 5px 5px #ccc;
+  position: relative;
+  margin-bottom: 45px;
+  top: 25px;
+  padding: 25px;
+  border: 1px solid gray;
+}

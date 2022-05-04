@@ -1,0 +1,39 @@
+.NavigationBar {
+  position: relative;
+  margin-top: 25px;
+  z-index: 600;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  color: white;
+}
+
+.NavigationBar img {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.NavigationBar h3 {
+  position: absolute;
+  left: 25px;
+  top: 4px;
+  padding-top: 2px;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .NavigationBar h3 {
+    display: block;
+    padding-top: 15px;
+  }
+  .NavigationBar img {
+    left: 80vw;
+  }
+}

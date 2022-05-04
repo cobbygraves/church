@@ -1,0 +1,32 @@
+.MemberDetails {
+  position: relative;
+  padding: 25px;
+}
+
+.Display-Profile {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: block;
+}
+
+.Display-Profile img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 450px) {
+  .Display-Profile {
+    position: unset;
+  }
+  .MemberDetails {
+    width: 350px;
+  }
+
+  .Display-Profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,68 @@
+.LoginUser {
+  position: relative;
+  margin-top: 5%;
+  left: 35%;
+  width: 30%;
+  padding: 25px;
+  box-shadow: 5px 5px 10px #ccc;
+  z-index: 100;
+  border-radius: 25px;
+}
+
+.DisplayImage {
+  position: relative;
+  /* left: -40px; */
+  top: 27.5px;
+  text-align: center;
+}
+
+.DisplayImage img {
+  display: block;
+  border-radius: 50%;
+  width: 135px;
+  height: 135px;
+  /* border: 2px dashed #ccc; */
+  margin: 15px auto;
+}
+
+.LoginUser h2 {
+  text-align: center;
+}
+
+.LoginUser h4 {
+  text-align: center;
+}
+
+.LoginUser input {
+  margin-bottom: 15px;
+  padding: 7px 7px;
+  width: 95%;
+}
+
+@media (max-width: 500px) {
+  .LoginUser {
+    width: 85%;
+    left: 1.5%;
+    margin-top: 40%;
+  }
+  .DisplayImage img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.LoginUser button {
+  padding: 5px;
+}
+
+.LoginUser-Input-Div {
+  margin: 5px 0;
+}
+
+.User-Created-Success {
+  color: green;
+}
+
+.User-Created-Error {
+  color: red;
+}
