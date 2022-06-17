@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useEffect } from "react";
-import Login from "./Users/LoginUser/LoginUser";
+import SignIn from "./SignIn";
 import Members from "./Members/Members";
 import logo from "../src/Assets/LHIBanner.jpg";
 import Register from "./Register/Register";
@@ -46,7 +46,7 @@ const App = (props) => {
       )}
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Login} />
+          <Route path="/" exact component={SignIn} />
 
           {loginAuth && <Route path="/members" component={Members} />}
           {loginAuth && <Route path="/member/register" component={Register} />}

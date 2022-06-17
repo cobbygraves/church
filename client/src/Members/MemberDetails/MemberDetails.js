@@ -27,8 +27,8 @@ const MemberDetails = (props) => {
     <div className="MemberDetails" ref={memberRef}>
       <div className="Display-Profile">
         <img
-          // src={`http://localhost:5000/images/${props.details.pic}`}
-          src={`https://loyaltyhouse.herokuapp.com/images/${props.details.pic}`}
+          src={`http://localhost:5000/images/${props.details.pic}`}
+          // src={`https://loyaltyhouse.herokuapp.com/images/${props.details.pic}`}
           alt=""
         />
       </div>
