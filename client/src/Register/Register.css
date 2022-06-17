@@ -11,3 +11,14 @@
   padding: 25px;
   border: 1px solid gray;
 }
+
+.Register-Form-File {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 450px) {
+  .Register-Form-File {
+    margin-left: 0;
+  }
+}

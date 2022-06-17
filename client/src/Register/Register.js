@@ -15,8 +15,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import { bindActionCreators } from "redux";
 import { useDispatch } from "react-redux";
 import * as actionCreators from "../Store/ActionCreators";
-
 import axiosInstance from "../config";
+import { styles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   margin: {
@@ -204,13 +204,19 @@ const Register = () => {
       </NavigationBar>
       <Container>
         <form className="Register-Form" onSubmit={addMemberHandler}>
-          <div className="DisplayImage">
+          <div className="Register-Form-File">
             <h1>ADD MEMBER</h1>
 
             <img src={imageURL} alt="" />
             <p
               onClick={imagePickerHandler}
-              style={{ color: "#ccc", cursor: "pointer", marginBottom: "35px" }}
+              style={{
+                color: "#ccc",
+                cursor: "pointer",
+                marginBottom: "35px",
+                // width: "50%",
+                marginLeft: "15%",
+              }}
             >
               <Camera />
             </p>
